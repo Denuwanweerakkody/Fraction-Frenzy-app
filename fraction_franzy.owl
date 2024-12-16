@@ -1,0 +1,1752 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/dell/ontologies/2024/11/untitled-ontology-18"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/dell/ontologies/2024/11/untitled-ontology-18">
+    <Prefix name="" IRI="http://www.semanticweb.org/dell/ontologies/2024/11/untitled-ontology-18/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">Fraction Frenzy is an Intelligent Tutoring System (ITS) designed to enhance students&apos; understanding of fractions through interactive learning, testing, and progress tracking.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Accuracy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActivityHistory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AddingSubtractingFractions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Administrator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Animation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Answer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AppFeature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssessmentModule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CompletionRate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConvertingFractionsToDecimals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CorrectAnswer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diagrams"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Email"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EquivalentFractions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExternalLink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FeatureRequest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feedback"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FeedbackForm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Image"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ImprovementSuggestions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IncorrectAnswer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InteractiveExample"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leaderboard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LearningModule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MultipleChoiceQuestion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OntologyData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PasswordReset"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PerformanceMetrics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProgressTracker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Question"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuestionFeedback"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quiz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RealTimeFeedback"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Score"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ScoreTracking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Settings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SimplifyingFractions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TopScorer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserDetails"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserProfile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Visualization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VisualizationFile"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAccuracy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasActivityHistory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAddingSubtractingFractions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAdministrator"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAnimation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAnswer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCompletionRate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConvertingFractionsToDecimals"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCorrectAnswer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDiagram"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEmail"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEquivalentFractions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasExternalLink"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFeatureRequest"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFeedback"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasImage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasImprovementSuggestions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIncorrectAnswer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInteractiveExample"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMultipleChoiceQuestion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOntologyData"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPasswordReset"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPerformanceMetrics"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasQuestion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasQuestionFeedback"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasQuiz"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRealTimeFeedback"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasScore"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasScoreTracking"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSettings"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSimplifyingFractions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStudent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTopScorer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTopic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUserDetails"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVisualization"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVisualizationFile"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAccuracy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAnimationLink"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCompletionRate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEmail"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasImageLink"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPassword"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasScore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Accuracy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AddingSubtractingDiagram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AddingSubtractingExample"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AddingSubtractingFractions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AddingSubtractingModule"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CompletionRate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ConvertingFractionsModule"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ConvertingFractionsToDecimals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CorrectAnswer_SF_Q1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DiagramExample"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EF_Feedback"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EF_FeedbackForm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EF_Q1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EF_Quiz1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EF_Visualization"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EquivalentFractions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EquivalentFractionsModule"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EquivalentFractionsQuiz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EquivalentFractionsVideo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IncorrectAnswer_SF_Q1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leaderboard_EF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MCQ_SF1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MCQ_SF2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PasswordReset"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProgressTracker_EF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProgressTracker_SF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SF_Feedback"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SF_FeedbackForm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SF_Q1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SF_Q2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SF_Quiz1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SF_Visualization"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SimplifyingFractions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SimplifyingFractionsDiagram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SimplifyingFractionsExample"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SimplifyingFractionsModule"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SimplifyingFractionsQuiz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TopScorers_SF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VisualizationExample"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#smith"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#smithProfile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#smithSettings"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Accuracy"/>
+        <Class IRI="#PerformanceMetrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActivityHistory"/>
+        <Class IRI="#UserProfile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AddingSubtractingFractions"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Administrator"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animation"/>
+        <Class IRI="#VisualizationFile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Answer"/>
+        <Class IRI="#Quiz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssessmentModule"/>
+        <Class IRI="#AppFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompletionRate"/>
+        <Class IRI="#PerformanceMetrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConvertingFractionsToDecimals"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CorrectAnswer"/>
+        <Class IRI="#Answer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diagrams"/>
+        <Class IRI="#InteractiveExample"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Email"/>
+        <Class IRI="#UserDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EquivalentFractions"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExternalLink"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FeatureRequest"/>
+        <Class IRI="#FeedbackForm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feedback"/>
+        <Class IRI="#AssessmentModule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Image"/>
+        <Class IRI="#VisualizationFile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImprovementSuggestions"/>
+        <Class IRI="#ProgressTracker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IncorrectAnswer"/>
+        <Class IRI="#Answer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InteractiveExample"/>
+        <Class IRI="#LearningModule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leaderboard"/>
+        <Class IRI="#AppFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LearningModule"/>
+        <Class IRI="#AppFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MultipleChoiceQuestion"/>
+        <Class IRI="#Question"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Name"/>
+        <Class IRI="#UserDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OntologyData"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PasswordReset"/>
+        <Class IRI="#Settings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PerformanceMetrics"/>
+        <Class IRI="#ProgressTracker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProgressTracker"/>
+        <Class IRI="#AppFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Question"/>
+        <Class IRI="#Quiz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuestionFeedback"/>
+        <Class IRI="#FeedbackForm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quiz"/>
+        <Class IRI="#AssessmentModule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RealTimeFeedback"/>
+        <Class IRI="#Feedback"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Score"/>
+        <Class IRI="#Image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ScoreTracking"/>
+        <Class IRI="#Feedback"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Settings"/>
+        <Class IRI="#UserProfile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SimplifyingFractions"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Student"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TopScorer"/>
+        <Class IRI="#Leaderboard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Topic"/>
+        <Class IRI="#LearningModule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserDetails"/>
+        <Class IRI="#UserProfile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserProfile"/>
+        <Class IRI="#AppFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Visualization"/>
+        <Class IRI="#InteractiveExample"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisualizationFile"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#PerformanceMetrics"/>
+        <NamedIndividual IRI="#Accuracy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Resource"/>
+        <NamedIndividual IRI="#AddingSubtractingDiagram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InteractiveExample"/>
+        <NamedIndividual IRI="#AddingSubtractingExample"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#AddingSubtractingFractions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningModule"/>
+        <NamedIndividual IRI="#AddingSubtractingModule"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PerformanceMetrics"/>
+        <NamedIndividual IRI="#CompletionRate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningModule"/>
+        <NamedIndividual IRI="#ConvertingFractionsModule"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#ConvertingFractionsToDecimals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#CorrectAnswer_SF_Q1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InteractiveExample"/>
+        <NamedIndividual IRI="#DiagramExample"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Feedback"/>
+        <NamedIndividual IRI="#EF_Feedback"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FeedbackForm"/>
+        <NamedIndividual IRI="#EF_FeedbackForm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Question"/>
+        <NamedIndividual IRI="#EF_Q1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Quiz"/>
+        <NamedIndividual IRI="#EF_Quiz1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VisualizationFile"/>
+        <NamedIndividual IRI="#EF_Visualization"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#EquivalentFractions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningModule"/>
+        <NamedIndividual IRI="#EquivalentFractionsModule"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AssessmentModule"/>
+        <NamedIndividual IRI="#EquivalentFractionsQuiz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Resource"/>
+        <NamedIndividual IRI="#EquivalentFractionsVideo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#IncorrectAnswer_SF_Q1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leaderboard"/>
+        <NamedIndividual IRI="#Leaderboard_EF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MultipleChoiceQuestion"/>
+        <NamedIndividual IRI="#MCQ_SF1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MultipleChoiceQuestion"/>
+        <NamedIndividual IRI="#MCQ_SF2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Settings"/>
+        <NamedIndividual IRI="#PasswordReset"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProgressTracker"/>
+        <NamedIndividual IRI="#ProgressTracker_EF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProgressTracker"/>
+        <NamedIndividual IRI="#ProgressTracker_SF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Feedback"/>
+        <NamedIndividual IRI="#SF_Feedback"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FeedbackForm"/>
+        <NamedIndividual IRI="#SF_FeedbackForm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Question"/>
+        <NamedIndividual IRI="#SF_Q1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Question"/>
+        <NamedIndividual IRI="#SF_Q2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Quiz"/>
+        <NamedIndividual IRI="#SF_Quiz1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VisualizationFile"/>
+        <NamedIndividual IRI="#SF_Visualization"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#SimplifyingFractions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Resource"/>
+        <NamedIndividual IRI="#SimplifyingFractionsDiagram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InteractiveExample"/>
+        <NamedIndividual IRI="#SimplifyingFractionsExample"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningModule"/>
+        <NamedIndividual IRI="#SimplifyingFractionsModule"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AssessmentModule"/>
+        <NamedIndividual IRI="#SimplifyingFractionsQuiz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leaderboard"/>
+        <NamedIndividual IRI="#TopScorers_SF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InteractiveExample"/>
+        <NamedIndividual IRI="#VisualizationExample"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#User"/>
+        <NamedIndividual IRI="#smith"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserProfile"/>
+        <NamedIndividual IRI="#smithProfile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Settings"/>
+        <NamedIndividual IRI="#smithSettings"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInteractiveExample"/>
+        <NamedIndividual IRI="#AddingSubtractingModule"/>
+        <NamedIndividual IRI="#AddingSubtractingExample"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInteractiveExample"/>
+        <NamedIndividual IRI="#ConvertingFractionsModule"/>
+        <NamedIndividual IRI="#DiagramExample"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTopic"/>
+        <NamedIndividual IRI="#ConvertingFractionsModule"/>
+        <NamedIndividual IRI="#ConvertingFractionsToDecimals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRealTimeFeedback"/>
+        <NamedIndividual IRI="#EF_Feedback"/>
+        <NamedIndividual IRI="#EF_Quiz1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFeatureRequest"/>
+        <NamedIndividual IRI="#EF_FeedbackForm"/>
+        <NamedIndividual IRI="#EF_Feedback"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAnimation"/>
+        <NamedIndividual IRI="#EF_Visualization"/>
+        <NamedIndividual IRI="#EquivalentFractionsVideo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiagram"/>
+        <NamedIndividual IRI="#EquivalentFractionsModule"/>
+        <NamedIndividual IRI="#EquivalentFractionsVideo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTopic"/>
+        <NamedIndividual IRI="#EquivalentFractionsModule"/>
+        <NamedIndividual IRI="#EquivalentFractions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVisualization"/>
+        <NamedIndividual IRI="#EquivalentFractionsModule"/>
+        <NamedIndividual IRI="#EF_Visualization"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasScore"/>
+        <NamedIndividual IRI="#Leaderboard_EF"/>
+        <NamedIndividual IRI="#EquivalentFractionsQuiz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCorrectAnswer"/>
+        <NamedIndividual IRI="#MCQ_SF1"/>
+        <NamedIndividual IRI="#CorrectAnswer_SF_Q1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIncorrectAnswer"/>
+        <NamedIndividual IRI="#MCQ_SF2"/>
+        <NamedIndividual IRI="#IncorrectAnswer_SF_Q1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasImprovementSuggestions"/>
+        <NamedIndividual IRI="#ProgressTracker_EF"/>
+        <NamedIndividual IRI="#EF_Feedback"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasImprovementSuggestions"/>
+        <NamedIndividual IRI="#ProgressTracker_EF"/>
+        <NamedIndividual IRI="#SF_Feedback"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPerformanceMetrics"/>
+        <NamedIndividual IRI="#ProgressTracker_SF"/>
+        <NamedIndividual IRI="#Accuracy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPerformanceMetrics"/>
+        <NamedIndividual IRI="#ProgressTracker_SF"/>
+        <NamedIndividual IRI="#CompletionRate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRealTimeFeedback"/>
+        <NamedIndividual IRI="#SF_Feedback"/>
+        <NamedIndividual IRI="#SF_Quiz1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasQuestionFeedback"/>
+        <NamedIndividual IRI="#SF_FeedbackForm"/>
+        <NamedIndividual IRI="#SF_Feedback"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMultipleChoiceQuestion"/>
+        <NamedIndividual IRI="#SF_Q1"/>
+        <NamedIndividual IRI="#MCQ_SF1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMultipleChoiceQuestion"/>
+        <NamedIndividual IRI="#SF_Q2"/>
+        <NamedIndividual IRI="#MCQ_SF2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#SF_Visualization"/>
+        <NamedIndividual IRI="#SimplifyingFractionsDiagram"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTopic"/>
+        <NamedIndividual IRI="#SimplifyingFractions"/>
+        <NamedIndividual IRI="#SimplifyingFractions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVisualization"/>
+        <NamedIndividual IRI="#SimplifyingFractions"/>
+        <NamedIndividual IRI="#SF_Visualization"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiagram"/>
+        <NamedIndividual IRI="#SimplifyingFractionsModule"/>
+        <NamedIndividual IRI="#SimplifyingFractionsDiagram"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInteractiveExample"/>
+        <NamedIndividual IRI="#SimplifyingFractionsModule"/>
+        <NamedIndividual IRI="#SimplifyingFractionsExample"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTopic"/>
+        <NamedIndividual IRI="#SimplifyingFractionsModule"/>
+        <NamedIndividual IRI="#SimplifyingFractions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVisualization"/>
+        <NamedIndividual IRI="#SimplifyingFractionsModule"/>
+        <NamedIndividual IRI="#SF_Visualization"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasQuestion"/>
+        <NamedIndividual IRI="#SimplifyingFractionsQuiz"/>
+        <NamedIndividual IRI="#EF_Q1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasQuestion"/>
+        <NamedIndividual IRI="#SimplifyingFractionsQuiz"/>
+        <NamedIndividual IRI="#SF_Q1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasQuestion"/>
+        <NamedIndividual IRI="#SimplifyingFractionsQuiz"/>
+        <NamedIndividual IRI="#SF_Q2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasScore"/>
+        <NamedIndividual IRI="#TopScorers_SF"/>
+        <NamedIndividual IRI="#SimplifyingFractionsQuiz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivityHistory"/>
+        <NamedIndividual IRI="#smithProfile"/>
+        <NamedIndividual IRI="#ProgressTracker_EF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivityHistory"/>
+        <NamedIndividual IRI="#smithProfile"/>
+        <NamedIndividual IRI="#ProgressTracker_SF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSettings"/>
+        <NamedIndividual IRI="#smithProfile"/>
+        <NamedIndividual IRI="#smithSettings"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUserDetails"/>
+        <NamedIndividual IRI="#smithProfile"/>
+        <NamedIndividual IRI="#smith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPasswordReset"/>
+        <NamedIndividual IRI="#smithSettings"/>
+        <NamedIndividual IRI="#PasswordReset"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImageLink"/>
+        <NamedIndividual IRI="#EF_Visualization"/>
+        <Literal>https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fgiphy.com%2Fexplore%2Ffractions-of-amounts&amp;psig=AOvVaw3YCgGi5mQv3E4IKLSQWr3k&amp;ust=1734456400686000&amp;source=images&amp;cd=vfe&amp;opi=89978449&amp;ved=0CBMQjRxqFwoTCPido-DnrIoDFQAAAAAdAAAAABAE</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasScore"/>
+        <NamedIndividual IRI="#Leaderboard_EF"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">95</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAccuracy"/>
+        <NamedIndividual IRI="#ProgressTracker_EF"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">92.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCompletionRate"/>
+        <NamedIndividual IRI="#ProgressTracker_EF"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">85.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAccuracy"/>
+        <NamedIndividual IRI="#ProgressTracker_SF"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">95.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCompletionRate"/>
+        <NamedIndividual IRI="#ProgressTracker_SF"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">80.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImageLink"/>
+        <NamedIndividual IRI="#SF_Visualization"/>
+        <Literal>https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fimages-of-fractions&amp;psig=AOvVaw0NUq6G1N1Ww3oyHHrncpu0&amp;ust=1734456393085000&amp;source=images&amp;cd=vfe&amp;opi=89978449&amp;ved=0CBQQjRxqFwoTCMDz4IXorIoDFQAAAAAdAAAAABAE</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasScore"/>
+        <NamedIndividual IRI="#TopScorers_SF"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEmail"/>
+        <NamedIndividual IRI="#smithProfile"/>
+        <Literal>smith@example.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#smithProfile"/>
+        <Literal>smith</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAccuracy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasActivityHistory"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAddingSubtractingFractions"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAdministrator"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAnimation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAnswer"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCompletionRate"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasConvertingFractionsToDecimals"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCorrectAnswer"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDiagram"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEmail"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEquivalentFractions"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasExternalLink"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFeatureRequest"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFeedback"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasImage"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasImprovementSuggestions"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasIncorrectAnswer"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasInteractiveExample"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMultipleChoiceQuestion"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasName"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasOntologyData"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPasswordReset"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPerformanceMetrics"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasQuestion"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasQuestionFeedback"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasQuiz"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRealTimeFeedback"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasScore"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasScoreTracking"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSettings"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSimplifyingFractions"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasStudent"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTopScorer"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTopic"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasUserDetails"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasVisualization"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasVisualizationFile"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAccuracy"/>
+        <Class IRI="#PerformanceMetrics"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasActivityHistory"/>
+        <Class IRI="#UserProfile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAddingSubtractingFractions"/>
+        <Class IRI="#Topic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAdministrator"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAnimation"/>
+        <Class IRI="#VisualizationFile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAnswer"/>
+        <Class IRI="#Question"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCompletionRate"/>
+        <Class IRI="#PerformanceMetrics"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasConvertingFractionsToDecimals"/>
+        <Class IRI="#Topic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCorrectAnswer"/>
+        <Class IRI="#Answer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDiagram"/>
+        <Class IRI="#InteractiveExample"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEmail"/>
+        <Class IRI="#UserDetails"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEquivalentFractions"/>
+        <Class IRI="#Topic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasExternalLink"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFeatureRequest"/>
+        <Class IRI="#FeedbackForm"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFeedback"/>
+        <Class IRI="#AssessmentModule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasImage"/>
+        <Class IRI="#VisualizationFile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasImprovementSuggestions"/>
+        <Class IRI="#ProgressTracker"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIncorrectAnswer"/>
+        <Class IRI="#Answer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInteractiveExample"/>
+        <Class IRI="#LearningModule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMultipleChoiceQuestion"/>
+        <Class IRI="#Question"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasName"/>
+        <Class IRI="#UserDetails"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOntologyData"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPasswordReset"/>
+        <Class IRI="#Settings"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPerformanceMetrics"/>
+        <Class IRI="#ProgressTracker"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasQuestion"/>
+        <Class IRI="#Quiz"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasQuestionFeedback"/>
+        <Class IRI="#FeedbackForm"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasQuiz"/>
+        <Class IRI="#AssessmentModule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRealTimeFeedback"/>
+        <Class IRI="#Feedback"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasScore"/>
+        <Class IRI="#Leaderboard"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasScoreTracking"/>
+        <Class IRI="#Feedback"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSettings"/>
+        <Class IRI="#UserProfile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSimplifyingFractions"/>
+        <Class IRI="#Topic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStudent"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopScorer"/>
+        <Class IRI="#Leaderboard"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#LearningModule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUserDetails"/>
+        <Class IRI="#UserProfile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasVisualization"/>
+        <Class IRI="#InteractiveExample"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasVisualizationFile"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAccuracy"/>
+        <Class IRI="#Accuracy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasActivityHistory"/>
+        <Class IRI="#ActivityHistory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAddingSubtractingFractions"/>
+        <Class IRI="#AddingSubtractingFractions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAdministrator"/>
+        <Class IRI="#Administrator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAnimation"/>
+        <Class IRI="#Animation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAnswer"/>
+        <Class IRI="#Answer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCompletionRate"/>
+        <Class IRI="#CompletionRate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasConvertingFractionsToDecimals"/>
+        <Class IRI="#ConvertingFractionsToDecimals"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCorrectAnswer"/>
+        <Class IRI="#CorrectAnswer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDiagram"/>
+        <Class IRI="#Diagrams"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEmail"/>
+        <Class IRI="#Email"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEquivalentFractions"/>
+        <Class IRI="#EquivalentFractions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasExternalLink"/>
+        <Class IRI="#ExternalLink"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFeatureRequest"/>
+        <Class IRI="#FeatureRequest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFeedback"/>
+        <Class IRI="#Feedback"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasImage"/>
+        <Class IRI="#Image"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasImprovementSuggestions"/>
+        <Class IRI="#ImprovementSuggestions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIncorrectAnswer"/>
+        <Class IRI="#IncorrectAnswer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInteractiveExample"/>
+        <Class IRI="#InteractiveExample"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMultipleChoiceQuestion"/>
+        <Class IRI="#MultipleChoiceQuestion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasName"/>
+        <Class IRI="#Name"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOntologyData"/>
+        <Class IRI="#OntologyData"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPasswordReset"/>
+        <Class IRI="#PasswordReset"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPerformanceMetrics"/>
+        <Class IRI="#PerformanceMetrics"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasQuestion"/>
+        <Class IRI="#Question"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasQuestionFeedback"/>
+        <Class IRI="#QuestionFeedback"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasQuiz"/>
+        <Class IRI="#Quiz"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRealTimeFeedback"/>
+        <Class IRI="#RealTimeFeedback"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasScore"/>
+        <Class IRI="#Score"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasScoreTracking"/>
+        <Class IRI="#ScoreTracking"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSettings"/>
+        <Class IRI="#Settings"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSimplifyingFractions"/>
+        <Class IRI="#SimplifyingFractions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStudent"/>
+        <Class IRI="#Student"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopScorer"/>
+        <Class IRI="#TopScorer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasUserDetails"/>
+        <Class IRI="#UserDetails"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVisualization"/>
+        <Class IRI="#Visualization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVisualizationFile"/>
+        <Class IRI="#VisualizationFile"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasAccuracy"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasAnimationLink"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasCompletionRate"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasEmail"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasPassword"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasScore"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAccuracy"/>
+        <Class IRI="#Settings"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAnimationLink"/>
+        <Class IRI="#Animation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCompletionRate"/>
+        <Class IRI="#CompletionRate"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasEmail"/>
+        <Class IRI="#Email"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasImageLink"/>
+        <Class IRI="#Image"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#Name"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPassword"/>
+        <Class IRI="#Settings"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasScore"/>
+        <Class IRI="#Score"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAccuracy"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAnimationLink"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCompletionRate"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEmail"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasImageLink"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPassword"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasScore"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAccuracy</IRI>
+        <Literal>Connects PerformanceMetrics to Accuracy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasActivityHistory</IRI>
+        <Literal>Connects UserProfile to ActivityHistory.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAddingSubtractingFractions</IRI>
+        <Literal>Connects Topic to AddingSubtractingFractions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAdministrator</IRI>
+        <Literal>Connects User to Administrator.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAnimation</IRI>
+        <Literal>Connects VisualizationFile to Animation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAnimationLink</IRI>
+        <Literal>Stores the link to the animation in Animation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAnswer</IRI>
+        <Literal>Connects Question to Answer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCompletionRate</IRI>
+        <Literal>Connects PerformanceMetrics to CompletionRate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasConvertingFractionsToDecimals</IRI>
+        <Literal>Connects Topic to ConvertingFractionsToDecimals.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCorrectAnswer</IRI>
+        <Literal>Connects Answer to CorrectAnswer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasDiagram</IRI>
+        <Literal>Connects InteractiveExample to Diagrams.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasEmail</IRI>
+        <Literal>Connects UserDetails to Email.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasEquivalentFractions</IRI>
+        <Literal>Connects Topic to EquivalentFractions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasExternalLink</IRI>
+        <Literal>Connects Resource to ExternalLink.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFeatureRequest</IRI>
+        <Literal>Connects FeedbackForm to FeatureRequest.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFeedback</IRI>
+        <Literal>Connects AssessmentModule to Feedback.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasImage</IRI>
+        <Literal>Connects VisualizationFile to Image.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasImageLink</IRI>
+        <Literal>Stores the link to the animation in Animation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasImprovementSuggestions</IRI>
+        <Literal>Connects ProgressTracker to ImprovementSuggestions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasIncorrectAnswer</IRI>
+        <Literal>Connects Answer to CorrectAnswer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasInteractiveExample</IRI>
+        <Literal>Connects LearningModule to InteractiveExample.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasMultipleChoiceQuestion</IRI>
+        <Literal>Connects Question to MultipleChoiceQuestion.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasName</IRI>
+        <Literal>Connects UserDetails to Name.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasOntologyData</IRI>
+        <Literal>Connects Resource to OntologyData.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPassword</IRI>
+        <Literal>Stores password in Settings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPasswordReset</IRI>
+        <Literal>Connects Settings to PasswordReset.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPerformanceMetrics</IRI>
+        <Literal>Connects ProgressTracker to PerformanceMetrics.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasQuestion</IRI>
+        <Literal>Connects Quiz to Question.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasQuestionFeedback</IRI>
+        <Literal>Connects FeedbackForm to QuestionFeedback.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasQuiz</IRI>
+        <Literal>Connects Quiz to Question.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRealTimeFeedback</IRI>
+        <Literal>Connects Feedback to RealTimeFeedback.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasScore</IRI>
+        <Literal>Connects Leaderboard to Score.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasScoreTracking</IRI>
+        <Literal>Connects Feedback to ScoreTracking.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSettings</IRI>
+        <Literal>Connects UserProfile to Settings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSimplifyingFractions</IRI>
+        <Literal>Connects Topic to SimplifyingFractions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasStudent</IRI>
+        <Literal>Connects User to Student.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasTopScorer</IRI>
+        <Literal>Connects Leaderboard to TopScorer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasTopic</IRI>
+        <Literal>Connects a LearningModule to its Topic.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasUserDetails</IRI>
+        <Literal>Connects UserProfile to UserDetails.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasVisualization</IRI>
+        <Literal>Connects InteractiveExample to Visualization.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasVisualizationFile</IRI>
+        <Literal>Connects Resource to VisualizationFile.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
